@@ -1,0 +1,274 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{paralist}
+\usepackage{lastpage}
+
+\newsectionwidth{0pt} % Stops section indenting
+
+\newcommand{\titlegap}{5pt} %8pt
+\newcommand{\centitlegap}{-2pt}
+%\newcommand{\sectgap}{0.075in} % 0.1in
+%\newcommand{\censectgap}{-.05in}
+\newcommand{\sectgap}{0.05in} % 0.1in
+\newcommand{\censectgap}{-.05in}
+\newcommand{\paragap}{-5pt}
+\newcommand{\listitemsep}{0pt} %{-2pt}
+
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\pagestyle{fancy}
+\cfoot{Page \thepage \hspace{1pt} of 2}
+\rfoot{\today}
+\lfoot{Curriculum Vitae}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\usepackage[margin=0.94in, top=0.6in, bottom=0.9in]{geometry}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	YOUR NAME AND ADDRESS(ES) SECTION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \pagestyle{fancy}
+% \fancyhf{}
+%\centerline{\bf \large CURRICULUM VITAE}
+
+\centerline{\bf \huge HARDIK BISHNOI}
+\vspace{-0.3cm}
+\address{ \noindent\rule{8.5cm}{0.8pt} \\ New Delhi, India\\
+Phone: (+91) 9818026345 \\  \noindent\rule{8.5cm}{0.8pt}} 
+
+\address{\noindent\rule{8.5cm}{0.8pt} 
+\\\hfill E-mail: \href{mailto:harrybishnoi@gmail.com}{\textcolor{blue}{ harrybishnoi@gmail.com}}
+\\ \hfill Github: \href{https://github.com/snowclipsed}{\textcolor{blue}{github.com/snowclipsed}}
+\\\noindent\rule{8.5cm}{0.8pt}}
+
+
+
+\begin{resume}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	EDUCATION SECTION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{EDUCATION} %\centerline centers
+
+\vspace{\titlegap}
+
+{
+\bf Bachelor of Technology (Computer Science and Engineering)} \hfill Aug'19 -- May'23 \\ 
+\textbf{University}: \href{http://www.ipu.ac.in/}{\textcolor{blue}{Guru Gobind Singh Indraprastha University, Delhi, India}}\\
+\textbf{Institute}: \href{http://bvcoend.ac.in}{\textcolor{blue}{Bharati Vidyapeeth's College Of Engineering, New Delhi, India}}\\
+\textbf{Advisor}: Asst. Prof. Harsh Taneja\\
+\textbf{CGPA: 8.685 out of 10 (As of 4\textsuperscript{th} Semester)}\\
+
+{\bf AISSCE, CBSE Board (XII\textsuperscript{th} Grade - Science Stream)} \hfill Apr'18 -- May'19 \\ 
+\textbf{School}: \href{https://www.vis10dwarka.com/}{\textcolor{blue}{Venkateshwar International School, Dwarka, New Delhi, India}} \\
+\textbf{Subjects}: Physics, Maths, Chemistry, Computer Science, English\\
+\textbf{Percentage}: 94\% overall, Placing in the top 1.4\% from 1.3 million candidates \\
+
+\vspace{0.1in}
+\hline
+
+
+\section{POSITIONS}
+\vspace{0.1in}
+{\bf \href{https://www.linkedin.com/company/unlearners-tech/}{\textcolor{blue}{Unlearners Tech}},} Hyderabad, India (Remotely conducted)\\
+\vspace{0.1in}
+\textbf{Back-end Developer and Core Team Member, Aug'21 -- March'22}
+\begin{itemize}
+ \item {Supervised the deployment and design of a portable, handheld health-monitoring device called \emph{"Pebbl"}, enabling quick, easy and reliable measurement of temperature, oxygen saturation and auscultation.}\hfill \href{https://www.youtube.com/watch?v=BABDerk9_6Y}{\textcolor{blue}{[Talk]}}
+ \item{Pitched a proposal at the \href{https://thingqbator.nasscomfoundation.org/#}{\emph{\textcolor{blue}{Cisco ThingQbator}}} program and successfully procured a funding of US\$7000 for the startup project.} \hfill [\href{https://drive.google.com/file/d/1dDWpXgUP6_PzmwOJ5yWtgR0gMLfPi-SZ/view?usp=sharing}{\textcolor{blue}{Certificate}}]
+ \item {Developed the API and Deployed a test-version of a website on Amazon Web Services}
+ \end{itemize}
+ \vspace{0.25in}
+\hline
+\section{PROJECTS}
+\vspace{0.25in}
+\begin{itemize}
+    %\vspace{-0.05in}
+    \item Galaxy Classification Using Multi-band Data from EFIGI dataset (SDSS)\\ using CNNs\hfill Oct'21
+    \begin{itemize}
+        \item Currently achieved $\sim$97\% accuracy differentiating galaxies over classes of \\ Hubble Stage \textit{T} ranging from -6 to 10
+    \end{itemize}
+    
+    \item Music Generation through Generative Adversarial Networks (GANs) using \href{https://magenta.tensorflow.org/}{\textcolor{blue}{Magenta.js \\and Magenta for Python}} \hfill Jan'21
+    \begin{itemize}
+        \item Generated new music inspired by classical music. Classical music MIDI files are \\ input to a MelodyRNN written in tensorflow.js.
+    \end{itemize}
+    
+    \item Website for Unlearners Tech \hfill Sept '21 -- Feb '22
+    \begin{itemize}
+        \item Developed the Back-end of the website using Node.js for typescript (ts-node) and Express.
+        \item Deployed the website on Amazon Web Services (AWS)
+        \item Learnt developing API for the website and logged the API documents on Notion 
+    \end{itemize}
+    \item \textbf{Current Project} : Simulation of a Social IoT Network using Query Generation Models \\ (See \textit{Research} section below) \hfill 
+    
+    
+    \item Project proposal and model for alternate docking mechanism for spacecraft \hfill Oct'20
+
+\end{itemize}
+\vspace{\sectgap} 
+ 
+ \vspace{0.25in}
+ \hline
+ \section{\large RESEARCH}
+
+\vspace{\titlegap}
+
+\textbf{\textit{Journal Paper (in preparation)}}\\
+\textbf{H. Bishnoi}, S. Sharma, A. Anand, H. Taneja, M.Luthra - \textit{Trust Evaluation in Social Internet of Things} using Neural Networks\\
+   \begin{itemize}
+        \item Developing of a Query Generation Model to simulate a Social-IoT network in a city.
+        \item Trust between these simulated devices can be quantified using neural networks
+    \end{itemize}
+    
+\vspace{0.25in}
+\hline
+
+\section{COURSES, WORKSHOPS, and CONFERENCES}
+
+\vspace{0.25in}
+
+\begin{itemize}
+\item \textbf{Notable Undergraduate Coursework}: Applied Physics (I \& II), Applied Mathematics (I, II, III, \& IV), Signals and Systems, Algorithm Design and Analysis, Data Structures, Theory of Automata, Communication Systems
+\item \textbf{Other Courses}: \href{https://github.com/howardisaacson/Intro-to-Astro-2021}{\textcolor{blue}{\textit{Introduction to Astronomy Research 2021}}}, \href{https://www.coursera.org/learn/data-driven-astronomy}{\textcolor{blue}{\textit{Data-Driven Astronomy} on Coursera (University of Sydney)}}
+
+\item \textbf{Workshop}: Sagan Exoplanet Summer Workshop on Circumstellar Disks \& Young Planets (NExSCI, 2021) 
+
+\item \textbf{Winter School}: \href{https://github.com/snowclipsed/certificates/blob/12a614579095a3409db9537db1938011ec9940c5/winter_school2022.pdf}{\textcolor{blue}{SOKENDAI Asian Winter School for Astronomy (2022)}}
+\end{itemize}
+\vspace{0.1in}
+\hline
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	HONORS SECTION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace{0.1in}
+\section{SELECTED HONORS and AWARDS}
+
+\vspace{0.2in} 
+
+\begin{itemize}
+    \item Cisco ThingQbator Award for "Remote Health Monitor" \hfill 2021
+    \item \href{https://drive.google.com/file/d/17ZJo4-pI5jahQdTnzoRaii2Tmgww8yx6/view}{\textcolor{blue}{Global Nominee}, NASA SpaceApps Challenge} \hfill 2020
+
+\end{itemize}
+
+\vspace{\sectgap} 
+
+\hline
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	PROFESSIONAL TALKS SECTION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{SCIENTIFIC TALKS}
+
+% \vspace{\titlegap}
+
+% {\bf \textit{Invited Talk}}\\
+% \textit{Not so advanced Advance Driver Assistance System}, PyData Delhi Meetup (Month  year) \\
+
+% {\bf \textit{Invited Conference Talks}}
+
+% {\bf \textit{Contributed Colloquia, Seminars, Lunch Talks}}
+
+
+% {\bf \textit{Contributed Conference Talks}}\\
+% \textit{Title}. Presented at Conference name, City, State (Month year) \\
+
+% \vspace{\sectgap} % Some whitespace between sections
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	TEACHING EXPERIENCE SECTION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{LEADERSHIP, VOLUNTEERING and OUTREACH}
+\vspace{0.25in}
+\begin{itemize}
+    \item Head, Gaming Multimedia and Animation Society (GAMMA), \href{https://bvpieee.com/}{\textcolor{blue}{BVP IEEE}} \hfill 2020-21
+    \item Volunteered in \href{https://innovicon.bvpieee.com}{\textcolor{blue}{Innovicon}} Conference \hfill 2020
+    \item Instructor \& Organizer, Game Development Series, BVCOE \hfill 2020
+\end{itemize}
+\vspace{\sectgap}
+\hline
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Advising SECTION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{RESEARCH ADVISING}
+% \vspace{\titlegap} 
+% \textbf{Month year -- present}, Undergraduate Name (University name undergraduate), ''Title of undergraduate project''\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	Academic service SECTION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{ACADEMIC SERVICE}
+% \vspace{\titlegap} 
+% \textbf{Referee}, Journal \hfill  year--present \\
+% \textbf{Panelist}, Name of panel \hfill year\\
+% \textbf{Scientific Organizing Committee Member}, Conference name \hfill year
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	OUTREACH EXPERIENCE SECTION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{OUTREACH}
+
+% \vspace{\titlegap} 
+
+% Position that includes event name, Location \hfill Month year -- Month year
+
+% \vspace{\sectgap} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	COMPUTER SKILLS SECTION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{TECHNICAL SKILLS}
+
+\vspace{0.1in} 
+
+\textbf{Proficient}: Python, SQL, C, C++, \LaTeX, Git, HTML, Javascript Blender, Photoshop \vspace{0.05in}\\
+\textbf{Working Knowledge}: MATLAB, Android, Java, Typescript and Unix shell scripting, ADQL, AWS, Notion
+\vspace{0.05in}\\
+\textbf{Libraries}: \textsc{Keras, TensorFlow, OpenCV, Jupyter, Matplotlib, Pandas, Numpy, RadVel, LightKurve, SciPy}
+\vspace{0.05in}\\
+\textbf{Key Technologies}: Deep Learning, Machine Learning, Astronomy, Image processing, Computer Vision, Signal Processing, 3D Modelling \& Simulation, Game Development \\
+
+\vspace{0.1in}
+\hline
+
+% \vspace{\censectgap} % Some whitespace between sections
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	References SECTION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{REFERENCES}
+
+%\vspace{\titlegap} 
+
+
+\end{resume} 
+\end{document}
+
+
+
